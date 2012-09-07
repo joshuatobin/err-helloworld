@@ -1,5 +1,4 @@
-from errbot import BotPlugin
-from errbot import botcmd
+from errbot import BotPlugin, botcmd
 
 class HelloWorld(BotPlugin):
     @botcmd                               # this tag this method as a command
